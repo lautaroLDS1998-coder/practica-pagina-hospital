@@ -1,0 +1,88 @@
+
+
+:root{
+    --font-letter: bold;
+    --color-text: hsl(221, 100%, 96%);
+}
+section >*,.Header-div__your-result,.p-great{
+    font-weight: bolder;
+}
+header ,
+section {
+    padding-bottom: 0.9rem;
+    padding-top:    0.9rem;
+}
+body { 
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 0;
+}
+header{
+    display: inline;
+}
+.Header-div{
+    background-color: hsl(234, 85%, 45%);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.Header-div__your-result{
+    color: var(--color-text) ; 
+    margin: 0;
+}
+.Header-div__76,
+.p-great{ 
+    color: white;
+}
+
+.p-text,
+.p-100{
+    color: var(--color-text) ; 
+    /* color: hsl(221, 100%, 96%); */
+}
+
+.div-art{
+    
+}
+
+.art-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.art-2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.art-3{
+    display: flex;
+    justify-content: space-around;
+
+}
+.art-4{
+    display: flex;
+    justify-content: space-around;
+
+}
+button{
+    background-color: #303b59;
+    color: white;
+    border-radius:  2.4rem;
+    border-color: #303b59;
+    width: 65%;
+    cursor: pointer;
+    padding: 0.7rem;
+}
+
+button:hover{
+    background-color:#6075ad;  
+    border-color:#6075ad ;
+}
+button:checked{
+    background-color: #acb3c8;
+        border-color: #c3cbe1;
+}
